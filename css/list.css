@@ -1,0 +1,113 @@
+.nav{
+    overflow: hidden;
+}
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid red;
+    padding: 3px 0 0 14px;
+}
+.sk_list{
+    float: left;
+}
+.sk_con{
+    float: right;
+}
+
+.sk_con ul{
+display: flex;
+}
+
+.sk_con ul li:last-child a::after{
+content: 'ˇ';
+
+}
+
+
+.sk_con ul a{
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+    /* font-weight: 700; */
+
+}
+
+.sk_list ul{
+display: flex;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.sk_bd ul {
+    width: 1300px;
+}
+
+
+
+.sk_bd ul li{
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    float: left;
+    margin-right:  13px;
+    
+}
+
+.sk_bd ul li:hover{
+    border: 1px solid red;
+    
+}
+
+
+.footer{
+    clear: both;
+    
+}
+
+.item{
+    width: 300px;
+    height: 400px;
+    margin: 200px auto;
+    background-color: pink;
+    
+    
+}
+
+p{
+    height: 70px;
+    font-size:14px;
+    padding:  0px 20px;
+    margin-top: 30px;
+    
+}
+.app{
+    color: gray;
+    font-size: 12px;
+    /* padding: 0 20px; */
+    margin: 20px 20px 0 20px;
+}
+.info{
+    padding: 0 20px;
+    margin-top: 15px;
+}
+.info h4{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 12px;
+}
+.info span{
+    color: rgb(252, 203, 112);
+}
+.info .aa{
+    color: gray;
+    margin: 0 10px;
+
+}
