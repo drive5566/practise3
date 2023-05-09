@@ -20,14 +20,12 @@ dt.addEventListener('mouseover',function(){
     dd.style.display ='block'
 })
 
+
+
 var a = document.querySelector('.hotwrods li')
 var lili = a.children
 
-// for(i = 0 ; i < a.length ; i++){
-// a[i].addEventListener('mouseover',function(){
-//     this.className ='style_red'
-// })
-// }
+
 
 
 

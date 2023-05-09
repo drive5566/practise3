@@ -34,6 +34,11 @@ content: 'ˇ';
 
 }
 
+.sk_con ul a:hover{
+    color: red;
+}
+
+
 .sk_list ul{
 display: flex;
 }

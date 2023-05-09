@@ -25,7 +25,8 @@
     float: right;
 }
 
-.fr ul li a:hover{
+.fr ul li a:hover,
+.fl ul li a:hover{
     color: red;
 }
 
@@ -142,6 +143,7 @@ a{
     background-color: rgb(204, 204, 204);
     text-align:center ;
     line-height: 35px;
+    cursor: pointer;
 }
 .shop::after{
     content: '>';
