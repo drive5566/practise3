@@ -188,9 +188,6 @@ nav{
     height: 45px;
     background-color: red;
 }
-.navitems{
-    /* float: left; */
-}
 
 .dropdown .dt{
     width: 100%;
@@ -340,6 +337,10 @@ nav{
     font-size: 14px;
     margin-bottom: 5px;
 
+}
+.mod_help dl dd a:hover{
+    border-bottom: 2px solid;
+    font-weight: 700;
 }
 .mod_help dl {
     /* float: left; */

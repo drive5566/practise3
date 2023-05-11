@@ -11,6 +11,8 @@
 .sk_list{
     float: left;
 }
+
+
 .sk_con{
     float: right;
 }
@@ -52,23 +54,83 @@ display: flex;
 }
 
 .sk_bd ul {
-    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 
 .sk_bd ul li{
     width: 290px;
-    height: 460px;
-    border: 1px solid transparent;
-    float: left;
-    margin-right:  13px;
+    padding: 20px;
+    border: 1px solid  rgba(0,0,0,.2);
+    margin:  5px;
     
 }
 
-.sk_bd ul li:hover{
-    border: 1px solid red;
-    
+.sk_bd ul li:nth-child(1),
+.sk_bd ul li:nth-child(5){
+    margin-left: 0;
+}
+.sk_bd ul li:nth-child(4),
+.sk_bd ul li:nth-child(8){
+    margin-right: 0;
+}
+
+
+
+.card .card_content{
+    flex-grow: 1;
+    padding: 5px;
+
+}
+
+.card .card_content h2{
+    margin-top: 50px;
+    font-size: 32px;
+    font: w 700px;
+
+}
+
+.card .card_content p{
+    padding: 0;
+    line-height: 1.2;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar .bar_left span{
+    color: red;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 44px;
+
+}
+
+.bar .bar_right a{
+    padding: 10px;
+    display: block;
+    line-height: 24px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.bar .bar_right a:hover{
+    background-color: #000;
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
 
 
