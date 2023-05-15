@@ -43,10 +43,18 @@
     margin-bottom: 20px;
 }
 
+.reg_form ul  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .reg_form ul li label{
     display: inline-block;
     width: 88px;
     text-align: right;
+    margin-right: 5px;
 }
 .reg_form .inp{
     width: 242px;
@@ -55,6 +63,9 @@
 }
 .reg_form ul li .error{
     color: red;
+    display: none;
+    position: absolute;
+    
 }
 .erroe_icon,
 .success_icon{
@@ -67,6 +78,8 @@
 }
 .success{
     color: green;
+     /* display: none; */
+    position: absolute;
 }
 
 .success_icon{
@@ -111,6 +124,11 @@
     background-color: red;
     color: white;
     margin: 0 0 0 100px;
+}
+
+.btn:hover{
+    background-color: #000;
+
 }
 
 
