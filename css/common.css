@@ -78,17 +78,18 @@ a{
 .logo{
     position: absolute;
     top: 25px;
-    width: 171px;
-    height: 61px;
+    width: 120px;
+    height: 70px; 
     /* background-color: skyblue; */
 }
 
 .logo a{
     display: block;
-    width: 171px;
-    height: 61px;
-    background: url(https://picsum.photos/171/61/?gravity=east) no-repeat;
+    width: 120px;
+    height: 70px; 
+    background: url(https://1000logos.net/wp-content/uploads/2022/10/Pringles-logo.png) no-repeat ;
     font-size: 0;
+    background-size: 100%;
 }
 .search{
     position: absolute;
@@ -144,6 +145,10 @@ a{
     text-align:center ;
     line-height: 35px;
     cursor: pointer;
+}
+
+.shop:hover{
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
 }
 .shop::after{
     content: '>';
@@ -245,11 +250,15 @@ nav{
     display: flex;
     position: relative;
     
+    
 }
 
 .navitems .navitem-ul li:hover {
     outline: 1px solid rgba(0,0,0,.1);
     z-index: 2;
+    background-color: rgb(238, 238, 238);
+    transition: all .2s;
+
 
 }
 

@@ -1,3 +1,6 @@
+
+
+
 .main{
     width: 980px;
     height: 455px;
@@ -110,6 +113,7 @@
     line-height: 50px;
     text-align: center;
     right: 0;
+    z-index: 99;
 
 }
 .side ul li{
@@ -180,20 +184,88 @@
 }
 .col_329{
     width: 329px;
-}
-.col_221{
-    width: 221px;
-    margin: 0 2px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 15px;
+    margin: 0 2px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+
 }
+.hot{
+    position: absolute;
+    top: 160px;
+    left: 0;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+}
+.col_329 .img{
+    width: 329px;
+    height: 200px;
+}
+
+.sell{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sell h3{
+color: red;
+font-size: 22px;
+}
+
+.sell p{
+    line-height: 22px;
+}
+
+
+.col_329 h2{
+    font-size: 26px;
+}
+
+.col_221{
+    width: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+ 
+}
+
+.container-221{
+    display: flex;
+
+}
+
+.container-221 .sell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container-221 h3{
+    font-size :18px ;
+}
+
+
+
 .col_219{
     width: 219px;
     margin: 0 2px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    text-align: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
 .col_210 ul li {
@@ -305,4 +377,19 @@ margin: 50px 0;
 
 .black {
     background-color: #000 !important;
+}
+.fl .register{
+    animation: flashing 1s infinite steps(1);
+}
+
+@keyframes flashing{
+    0%{
+        color: #000;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        color: #000;
+    }
 }

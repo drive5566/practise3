@@ -2,13 +2,22 @@
     width: 1200px;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
+
 .header{
     height: 84px;
     border-bottom: 2px solid red;
 }
 .header img{
     padding-top: 18px;
+    width: 120px;
+    height: 70px; 
 }
+
+
 .registerarea{
     height: 522px;
     border: 1px solid;
